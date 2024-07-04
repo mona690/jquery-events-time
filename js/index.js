@@ -1,12 +1,12 @@
 /* Left Menu (Using .css() for direct manipulation) */
-$(".open").click(function() {
-    $("#leftMenu").css("width", "250px");
-    $("#home-content").css("marginLeft", "250px");
+$("#openButton").click(function() {
+    $("#leftMenu").css("width", "235px");
+    $("#content").css("marginLeft", "235px");
 });
 
 $(".closebtn").click(function() {
     $("#leftMenu").css("width", "0px");
-    $("#home-content").css("marginLeft", "0px");
+    $("#content").css("marginLeft", "0px");
 });
 
 /* Scroll Menu (Using .on() for event delegation) */

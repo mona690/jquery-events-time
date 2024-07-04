@@ -12,7 +12,7 @@ html {
     color: white;
     position: relative;
 }
-.HomeOverlay
+.side
 {
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@ html {
     padding-top: 60px;
 }
 
-.sidenav a {
+.nav a {
     padding: 20px 8px 20px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -67,7 +67,7 @@ html {
 
 
 
-.sidenav
+.nav
 {
     background-color: #414658;
 }
@@ -75,11 +75,11 @@ html {
 
 
 
-.sidenav a:hover{
+.nav a:hover{
     color:  rgba(214, 46, 51 , 0.4);
 }
 
-.sidenav .closebtn {
+.nav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -87,19 +87,19 @@ html {
     margin-left: 50px;
 }
 
-#home-content {
+#content {
     transition: margin-left .5s;
     padding: 16px;
 }
 
-#home-content h2
+#content h2
 {
     font-size: 60px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
 }
 
 
@@ -153,7 +153,7 @@ html {
 }
 
 
-.count-overlay
+.count-over
 {
     position: absolute;
     top: 0;
@@ -169,7 +169,7 @@ html {
     padding: 100px 0px;
 }
 
-.tim
+.time
 {
     
     padding: 50px;
